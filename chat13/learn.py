@@ -13,7 +13,12 @@ def learn(data):
 
     elif "temp" in data:
         chat.temp()
-    
+
+    elif "breakfast" in data:
+        chat.breakfast()
+
+    elif "lunch" in data:
+        chat.lunch()    
 
     elif "exit" in data:
         chat.Exit()

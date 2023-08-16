@@ -34,4 +34,18 @@ class chat_conversation:
         
     def news():
         print(random.choice(c.news))
-     
+
+    def breakfast():
+        print(random.choice(c.breakfast))
+      
+    def lunch():
+        while 1:
+            typ=int(input("\nWhat type of lunch do you want?\n1.Spicy\n2.Normal\nprajwal: "))
+            if typ==1:
+                print(random.choice(c.spicy_dishes))
+                break
+            elif typ==2:
+                print(random.choice(c.normal_dishes))
+                break
+            else:
+                print("Choose 1 or 2")
